@@ -1,1 +1,21 @@
 Here i'm going to put some commands to use along the practice
+
+Para comenzar a crear un repositorio desde cero en una ruta especifica se debe utilizar
+
+        git init <nombre del directorio>
+
+Si se desea clonar el repositorio desde cualquier otro lado a nuestra maquina se utiliza
+
+        git clone <HTTP o SSH>
+
+Se puede definir el nombre de usuario o autor para todos los commits que ocurran en el repositorio
+
+        git config user.name <nombre>
+
+Para realizar todos los cambios en el directorio hasta el siguiente commits, o remplazar en el directorio
+con un nuevo archivo o cambiarlo a un tipo especifico se utiliza
+
+        git add .  -- Con el punto "." se agregan todos los cambios hechos
+        git add <nombre del directorio>  -- Con este se cambia un archivo especifico
+
+El commit se utiliza para 
